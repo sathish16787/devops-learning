@@ -5,3 +5,5 @@
 [ERROR] Timeout occurred
 [INFO] Request processed
 [ERROR] File not found
+[DEBUG] Debug mode enabled
+[CRITICAL] Debug mode enabled
