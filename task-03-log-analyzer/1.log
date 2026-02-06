@@ -1,0 +1,29 @@
+2024-02-05 10:23:45 [INFO] [auth-service] User login successful user_id=1234
+2024-02-05 10:23:47 [ERROR] [database] Connection timeout retry_attempt=3
+2024-02-05 10:23:50 [INFO] [api-gateway] Request processed duration=45ms
+2024-02-05 10:24:12 [ERROR] [payment-service] Transaction failed zrror_code=500
+2024-02-05 10:24:15 [WARNING] [cache] High memory usage memory_percent=85
+2024-02-05 10:24:20 [INFO] [api-gateway] Request processed duration=120ms
+2024-02-05 10:24:25 [ERROR] [database] Connection timeout retry_attempt=1
+2024-02-05 10:24:30 [INFO] [api-gateway] Request processed duration=67ms
+2024-02-05 10:25:00 [DEBUG] [auth-service] Token validation started token_type=jwt
+2024-02-05 10:25:15 [CRITICAL] [payment-service] Payment gateway unresponsive timeout=30s
+2024-02-05 10:25:30 [INFO] [notification-service] Email sent successfully recipient=user@example.com
+2024-02-05 10:25:45 [ERROR] [analytics-service] Data processing failed error=null_pointer
+2024-02-05 10:26:00 [WARNING] [database] Slow query detected query_time=2.5s
+2024-02-05 10:26:15 [INFO] [user-service] Profile updated user_id=5678 fields=3
+2024-02-05 10:26:30 [DEBUG] [cache] Cache hit ratio=0.85
+2024-02-05 10:26:45 [ERROR] [api-gateway] Rate limit exceeded ip=192.168.1.1
+2024-02-05 10:27:00 [INFO] [order-service] Order created order_id=ORD-78901 amount=299.99
+2024-02-05 10:27:15 [WARNING] [auth-service] Multiple failed attempts user_id=9012 attempts=5
+2024-02-05 10:27:30 [DEBUG] [payment-service] Processing payment transaction_id=TX-98765
+2024-02-05 10:27:45 [CRITICAL] [database] Replication lag exceeded lag=120s
+2024-02-05 10:28:00 [INFO] [inventory-service] Stock updated product_id=P-123 quantity=50
+2024-02-05 10:28:15 [ERROR] [notification-service] SMS delivery failed phone=+1234567890
+2024-02-05 10:28:30 [INFO] [api-gateway] Request processed duration=89ms status_code=200
+2024-02-05 10:28:45 [WARNING] [payment-service] Unusual transaction pattern amount=5000.00
+2024-02-05 10:29:00 [DEBUG] [analytics-service] Event tracked event_name=page_view user_id=3456
+2024-02-05 10:29:15 [INFO] [shipping-service] Package dispatched tracking_no=SHIP-45678
+2024-02-05 10:29:30 [ERROR] [user-service] Password reset failed email=test@example.com
+2024-02-05 10:29:45 [CRITICAL] [auth-service] Security breach detected suspicious_activity=true
+2024-02-05 10:30:00 [INFO] [support-service] Ticket created ticket_id=TKT-11223 priority=high

@@ -1,0 +1,39 @@
+{
+  "total_logs": 29,
+  "log_levels": {
+    "INFO": 11,
+    "ERROR": 7,
+    "WARNING": 4,
+    "DEBUG": 4,
+    "CRITICAL": 3
+  },
+  "services": {
+
+    "database": 4,
+    "api-gateway": 5,
+    "payment-service": 4,
+    "cache": 2,
+    "notification-service": 2,
+    "analytics-service": 2,
+    "user-service": 2,
+    "order-service": 1,
+    "inventory-service": 1,
+    "shipping-service": 1,
+    "support-service": 1
+  },
+  "unique_services": [
+    "auth-service",
+    "database",
+    "api-gateway",
+    "payment-service",
+    "cache",
+    "notification-service",
+    "analytics-service",
+    "user-service",
+    "order-service",
+    "inventory-service",
+    "shipping-service",
+    "support-service"
+  ],
+  "error_rate_percent": 24.137931034482758
+}
